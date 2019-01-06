@@ -1,5 +1,5 @@
 const Eris = require("eris");
-var x5bzteam = new Eris("NTMxMTA0MDk1MzkwNjYyNjU4.DxN04w.198J0kSB3U23en4KuYTdmnq-0c0");
+var x5bzteam = new Eris(process.env.BOT_TOKEN);
 x5bzteam.on("ready", () => {
     console.log("Yo! Changer [ON]");
     onstart();
